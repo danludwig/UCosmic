@@ -66,6 +66,7 @@ namespace UCosmic.Impl
 
                 //container.Register<ISeedData, CompositeSqlSeeder>();
                 //container.Register<ISeedData, CompositeEntitySeeder>();
+                //container.Register<ISeedData, MemberEntitySeeder>();
                 container.Register<ISeedData, BrownfieldSeeder>();
             }
 
