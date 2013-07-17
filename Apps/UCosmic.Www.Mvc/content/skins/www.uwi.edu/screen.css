@@ -1,0 +1,66 @@
+﻿/* jquery ui-dialog re-theme */
+.ucosmic.modal.ui-dialog .ui-dialog-titlebar {
+    background-color: #1f7e5c;
+    color: #fff;
+}
+
+
+
+/* hat 33px tall */
+.ucosmic .top-tabs {
+    border-bottom-color: #1f7e5c;
+    background-color: #1f7e5c;
+}
+.ucosmic .top-tabs a {
+    color: #fff;
+}
+.ucosmic .top-tabs a:hover, .ucosmic .top-tabs a.open {
+    color: #1f7e5c;
+    border-color: #1f7e5c;
+    border-bottom-color: #fff;
+    padding: 2px 8px 0;
+}
+.ucosmic .top-tabs a.docked {
+    color: #1f7e5c;
+    border-color: #fff;
+    padding: 2px 8px 0;
+}
+.ucosmic .top-tabs a.open.has-sub {
+    color: #1f7e5c;
+}
+.ucosmic .top-tabs .sub-nav {
+    border-color: #1f7e5c;
+}
+.ucosmic .top-tabs .sub-nav a, .ucosmic .top-tabs .sub-nav a:hover {
+    color: #4E75BB;
+    border-color: transparent;
+    border-left-color: #fff;
+    padding: 1px 6px 1px 10px;
+}
+
+
+/* head 77px tall */
+.ucosmic > .head {
+    border-bottom-color: #1f7e5c;
+}
+.ucosmic > .head > .center > h1 {
+    color: #1f7e5c;
+}
+.ucosmic > .head > .right {
+    right: 20px;
+}
+
+
+/* layout skeleton */
+
+
+
+/* footer bar 33px tall */
+.ucosmic > .feet > .footer {
+    background-color: #ed6a60;
+    border-top: solid 1px #ed6a60;
+}
+.ucosmic > .feet > .footer a {
+    color: #fff;
+    border-top: 0;
+}
